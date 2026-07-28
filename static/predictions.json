@@ -1,335 +1,88 @@
 {
   "predictions": [
     {
-      "ticker": "KSCP",
-      "name": "Knightscope, Inc.",
-      "price3DaysAgo": 1.43,
-      "priceToday": 2.08,
-      "predictedMove": "+18% (Strong)",
+      "ticker": "GRWG",
+      "name": "GrowGeneration Corp.",
+      "price3DaysAgo": 1.38,
+      "priceToday": 1.48,
+      "predictedMove": "+4%",
       "confidence": 95,
-      "reasoning": "10.3x volume spike, Strong 45.5% gap, fresh news catalyst, low float, trending on social media",
+      "reasoning": "3.3x volume spike, Solid 7.2% gap, fresh news catalyst, trending on social media",
       "keyFactors": [
-        "Gap: 45.5%",
-        "Volume: 10.3x",
-        "Float: 15.2M",
-        "Short: 15%",
-        "News: 13"
-      ],
-      "news": "Top movers analysis one hour before the close of t | Top movers analysis in the middle of the day on 20 | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Top movers analysis one hour before the close of the markets on 2026-07-22: top gainers and losers i",
-      "gap_percent": 45.5,
-      "volume_ratio": 10.3,
-      "float": 15.2,
-      "short_percent": 14.5,
-      "news_count": 13,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 115,
-      "is_trending": true,
-      "red_flags": [
-        "Large move may have already occurred"
-      ]
-    },
-    {
-      "ticker": "KUST",
-      "name": "Kustom Entertainment, Inc.",
-      "price3DaysAgo": 0.96,
-      "priceToday": 1.41,
-      "predictedMove": "+32% (Major Move)",
-      "confidence": 95,
-      "reasoning": "23.5x volume spike, Strong 46.9% gap, fresh news catalyst, low float, high short interest (51%), trending on social media",
-      "keyFactors": [
-        "Gap: 46.9%",
-        "Volume: 23.5x",
-        "Float: 0.6M",
-        "Short: 51%",
-        "News: 9"
-      ],
-      "news": "Top movers analysis one hour before the close of t | Top movers analysis in the middle of the day on 20 | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Top movers analysis one hour before the close of the markets on 2026-07-22: top gainers and losers i",
-      "gap_percent": 46.9,
-      "volume_ratio": 23.5,
-      "float": 0.6,
-      "short_percent": 50.6,
-      "news_count": 9,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 145,
-      "is_trending": true,
-      "red_flags": [
-        "Large move may have already occurred"
-      ]
-    },
-    {
-      "ticker": "MWC",
-      "name": "Micware Co., Ltd.",
-      "price3DaysAgo": 1.11,
-      "priceToday": 1.62,
-      "predictedMove": "+17% (Strong)",
-      "confidence": 95,
-      "reasoning": "8.7x volume spike, Strong 45.9% gap, fresh news catalyst, trending on social media",
-      "keyFactors": [
-        "Gap: 45.9%",
-        "Volume: 8.7x",
-        "Float: 24.2M",
-        "News: 5"
-      ],
-      "news": "12 Information Technology Stocks Moving In Wednesd | 12 Information Technology Stocks Moving In Wednesd | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "12 Information Technology Stocks Moving In Wednesday's Intraday Session",
-      "gap_percent": 45.9,
-      "volume_ratio": 8.7,
-      "float": 24.2,
-      "short_percent": 0,
-      "news_count": 5,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 75,
-      "is_trending": true,
-      "red_flags": [
-        "Large move may have already occurred"
-      ]
-    },
-    {
-      "ticker": "JRSH",
-      "name": "Jerash Holdings (US), Inc.",
-      "price3DaysAgo": 4.56,
-      "priceToday": 4.7,
-      "predictedMove": "+6% (Moderate)",
-      "confidence": 95,
-      "reasoning": "fresh news catalyst, low float",
-      "keyFactors": [
-        "Gap: 3.1%",
-        "Volume: 1.5x",
-        "Float: 5.7M",
-        "News: 11"
-      ],
-      "news": "Jerash Holdings Board Nominates Ringo Ng As Board  | ",
-      "catalyst": "Jerash Holdings Board Nominates Ringo Ng As Board Chairman To Succeed Sam Choi",
-      "gap_percent": 3.1,
-      "volume_ratio": 1.5,
-      "float": 5.7,
-      "short_percent": 1.8,
-      "news_count": 11,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (10 articles)",
-        "ultra-low float (5.7M)",
-        "micro-cap (60M)"
-      ],
-      "social_score": 0,
-      "is_trending": false,
-      "red_flags": []
-    },
-    {
-      "ticker": "ATER",
-      "name": "Aterian, Inc.",
-      "price3DaysAgo": 1.03,
-      "priceToday": 0.64,
-      "predictedMove": "+18% (Strong)",
-      "confidence": 95,
-      "reasoning": "4.7x volume spike, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: -37.8%",
-        "Volume: 4.7x",
-        "Float: 6.5M",
-        "News: 11"
-      ],
-      "news": "What's going on in today's after hours session | 12 Consumer Discretionary Stocks Moving In Wednesd | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "What's going on in today's after hours session",
-      "gap_percent": -37.8,
-      "volume_ratio": 4.7,
-      "float": 6.5,
-      "short_percent": 4.0,
-      "news_count": 11,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (8 articles)",
-        "extreme volume (4.7x)",
-        "accelerating volume (3 days)",
-        "ultra-low float (6.5M)"
-      ],
-      "social_score": 90,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "GALT",
-      "name": "Galectin Therapeutics Inc.",
-      "price3DaysAgo": 3.85,
-      "priceToday": 3.5,
-      "predictedMove": "+8% (Moderate)",
-      "confidence": 94.5,
-      "reasoning": "fresh news catalyst, high short interest (21%), trending on social media",
-      "keyFactors": [
-        "Gap: -9.1%",
-        "Volume: 1.2x",
-        "Float: 47.2M",
-        "Short: 21%",
-        "News: 8"
+        "Gap: 7.2%",
+        "Volume: 3.3x",
+        "Float: 51.3M",
+        "News: 10"
       ],
       "news": " |  | \ud83d\udd25 Trending based on elevated_activity",
       "catalyst": "",
-      "gap_percent": -9.1,
-      "volume_ratio": 1.2,
-      "float": 47.2,
-      "short_percent": 21.4,
-      "news_count": 8,
+      "gap_percent": 7.2,
+      "volume_ratio": 3.3,
+      "float": 51.3,
+      "short_percent": 2.3,
+      "news_count": 10,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.1,
         "volume_weight": 1.0,
         "news_weight": 0.9,
         "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (8 articles)",
-        "squeeze setup (float 47.2M + 21% short)",
-        "high short interest (21%)",
-        "micro-cap (230M)"
-      ],
-      "social_score": 40,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "SMCX",
-      "name": "Defiance Daily Target 2X Long SMCI ETF",
-      "price3DaysAgo": 6.45,
-      "priceToday": 8.99,
-      "predictedMove": "+12% (Strong)",
-      "confidence": 91.5,
-      "reasoning": "3.4x volume spike, Strong 39.4% gap, fresh news catalyst, trending on social media",
-      "keyFactors": [
-        "Gap: 39.4%",
-        "Volume: 3.4x",
-        "Float: 1000.0M",
-        "News: 4"
-      ],
-      "news": "SMCX Pops 50% As Super Micro Shocks Wall Street Wi |  | \ud83d\udd25 Trending based on moderate_activity",
-      "catalyst": "SMCX Pops 50% As Super Micro Shocks Wall Street With AI Margin Windfall",
-      "gap_percent": 39.4,
-      "volume_ratio": 3.4,
-      "float": 1000.0,
-      "short_percent": 0,
-      "news_count": 4,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
+        "short_weight": 0.9,
         "sentiment_weight": 1.0,
         "social_weight": 1.0
       },
       "tier": 1,
       "momentum_indicators": [],
-      "social_score": 45,
+      "social_score": 25,
       "is_trending": true,
-      "red_flags": [
-        "Large move may have already occurred"
-      ]
+      "red_flags": []
     },
     {
-      "ticker": "SMCZ",
-      "name": "Defiance Daily Target 2X Short SMCI ETF",
-      "price3DaysAgo": 11.01,
-      "priceToday": 6.62,
+      "ticker": "AMSS",
+      "name": "AMASS Brands, Inc.",
+      "price3DaysAgo": 1.06,
+      "priceToday": 0.86,
       "predictedMove": "+12% (Strong)",
-      "confidence": 54.0,
-      "reasoning": "\u26a0\ufe0f Very high 32.7x volume, fresh news catalyst, trending on social media",
+      "confidence": 95,
+      "reasoning": "3.4x volume spike, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: -39.9%",
-        "Volume: 32.7x",
-        "Float: 1000.0M",
-        "News: 4"
+        "Gap: -19.1%",
+        "Volume: 3.4x",
+        "Float: 6.6M",
+        "News: 3"
       ],
-      "news": " |  | \ud83d\udd25 Trending based on high_activity",
+      "news": " |  | \ud83d\udd25 Trending based on moderate_activity",
       "catalyst": "",
-      "gap_percent": -39.9,
-      "volume_ratio": 32.7,
-      "float": 1000.0,
+      "gap_percent": -19.1,
+      "volume_ratio": 3.4,
+      "float": 6.6,
       "short_percent": 0,
-      "news_count": 4,
+      "news_count": 3,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.1,
         "volume_weight": 1.0,
         "news_weight": 0.9,
         "float_weight": 1.1,
-        "short_weight": 1.0,
+        "short_weight": 0.9,
         "sentiment_weight": 1.0,
         "social_weight": 1.0
       },
       "tier": 2,
       "momentum_indicators": [
-        "news (4 articles)",
-        "extreme volume (32.7x)",
-        "accelerating volume (3 days)"
+        "news (3 articles)",
+        "extreme volume (3.4x)",
+        "accelerating volume (3 days)",
+        "ultra-low float (6.6M)",
+        "near 52-week low bounce"
       ],
-      "social_score": 90,
+      "social_score": 60,
       "is_trending": true,
-      "red_flags": [
-        "\u26a0\ufe0f Very high volume - proceed with caution"
-      ]
+      "red_flags": []
     }
   ],
-  "generatedTime": "2026-07-23 01:36 AM",
-  "targetDate": "2026-07-23",
+  "generatedTime": "2026-07-28 01:35 AM",
+  "targetDate": "2026-07-28",
   "tradingStyle": "DAY_TRADING",
   "learningSystem": {
     "enabled": true,
@@ -339,16 +92,16 @@
       "volume_weight": 1.0,
       "news_weight": 0.9,
       "float_weight": 1.1,
-      "short_weight": 1.0,
+      "short_weight": 0.9,
       "sentiment_weight": 1.0,
       "social_weight": 1.0
     },
     "insights": {
       "best_gap_range": {
         "range": "High (10-20%)",
-        "accuracy": 90.0
+        "accuracy": 90.9090909090909
       },
-      "recent_trend": 15.0,
+      "recent_trend": 10.0,
       "confidence_adjustment": -10,
       "weights_updated": true
     }
