@@ -1,60 +1,6 @@
 {
   "history": [
     {
-      "ticker": "TC",
-      "name": "Token Cat Limited",
-      "predictedPrice": 1.85,
-      "actualPrice": 8.4,
-      "predictedMove": "+16% (Strong)",
-      "actualMove": "+354.0%",
-      "wasCorrect": false,
-      "status": "PARTIAL",
-      "confidence": 66,
-      "reasoning": "\u26a0\ufe0f Very high 38.3x volume, fresh news catalyst, trending on social media",
-      "keyFactors": [
-        "Gap: -76.9%",
-        "Volume: 38.3x",
-        "Float: 26.4M",
-        "News: 12"
-      ],
-      "predictionDate": "2026-07-01",
-      "targetDate": "2026-07-01",
-      "checkDate": "2026-07-02",
-      "priceType": "Pre-Market High (4:00-9:59 AM EST)",
-      "gap_percent": -76.9,
-      "volume_ratio": 38.3,
-      "float": 26.4,
-      "short_percent": 0.0,
-      "news_count": 12
-    },
-    {
-      "ticker": "CANF",
-      "name": "Can-Fite BioPharma Ltd.",
-      "predictedPrice": 4.63,
-      "actualPrice": 4.6,
-      "predictedMove": "+23% (Major Move)",
-      "actualMove": "-0.6%",
-      "wasCorrect": false,
-      "status": "WRONG",
-      "confidence": 95,
-      "reasoning": "8.9x volume spike, Strong 55.9% gap, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: 55.9%",
-        "Volume: 8.9x",
-        "Float: 2.1M",
-        "News: 15"
-      ],
-      "predictionDate": "2026-07-02",
-      "targetDate": "2026-07-02",
-      "checkDate": "2026-07-03",
-      "priceType": "Pre-Market High (4:00-9:59 AM EST)",
-      "gap_percent": 55.9,
-      "volume_ratio": 8.9,
-      "float": 2.1,
-      "short_percent": 2.2,
-      "news_count": 15
-    },
-    {
       "ticker": "HPAI",
       "name": "Helport AI Limited",
       "predictedPrice": 0.7,
@@ -2458,11 +2404,65 @@
       "float": 1000.0,
       "short_percent": 0.0,
       "news_count": 4
+    },
+    {
+      "ticker": "GRWG",
+      "name": "GrowGeneration Corp.",
+      "predictedPrice": 1.48,
+      "actualPrice": 1.5,
+      "predictedMove": "+4%",
+      "actualMove": "+1.4%",
+      "wasCorrect": false,
+      "status": "PARTIAL",
+      "confidence": 95,
+      "reasoning": "3.3x volume spike, Solid 7.2% gap, fresh news catalyst, trending on social media",
+      "keyFactors": [
+        "Gap: 7.2%",
+        "Volume: 3.3x",
+        "Float: 51.3M",
+        "News: 10"
+      ],
+      "predictionDate": "2026-07-28",
+      "targetDate": "2026-07-28",
+      "checkDate": "2026-07-29",
+      "priceType": "Pre-Market High (4:00-9:59 AM EST)",
+      "gap_percent": 7.2,
+      "volume_ratio": 3.3,
+      "float": 51.3,
+      "short_percent": 2.3,
+      "news_count": 10
+    },
+    {
+      "ticker": "AMSS",
+      "name": "AMASS Brands, Inc.",
+      "predictedPrice": 0.86,
+      "actualPrice": 0.91,
+      "predictedMove": "+12% (Strong)",
+      "actualMove": "+5.3%",
+      "wasCorrect": false,
+      "status": "PARTIAL",
+      "confidence": 95,
+      "reasoning": "3.4x volume spike, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: -19.1%",
+        "Volume: 3.4x",
+        "Float: 6.6M",
+        "News: 3"
+      ],
+      "predictionDate": "2026-07-28",
+      "targetDate": "2026-07-28",
+      "checkDate": "2026-07-29",
+      "priceType": "Pre-Market High (4:00-9:59 AM EST)",
+      "gap_percent": -19.1,
+      "volume_ratio": 3.4,
+      "float": 6.6,
+      "short_percent": 0.0,
+      "news_count": 3
     }
   ],
-  "lastUpdated": "2026-07-24 01:01 AM",
+  "lastUpdated": "2026-07-29 01:00 AM",
   "totalPredictions": 90,
   "correctPredictions": 10,
   "accuracy": 11.0,
-  "previousAccuracy": 10.0
+  "previousAccuracy": 11.0
 }
