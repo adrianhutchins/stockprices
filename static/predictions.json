@@ -1,70 +1,25 @@
 {
   "predictions": [
     {
-      "ticker": "BRFH",
-      "name": "Barfresh Food Group, Inc.",
-      "price3DaysAgo": 1.92,
-      "priceToday": 1.33,
-      "predictedMove": "+18% (Strong)",
+      "ticker": "SLE",
+      "name": "Super League Enterprise, Inc.",
+      "price3DaysAgo": 3.02,
+      "priceToday": 5.5,
+      "predictedMove": "+23% (Major Move)",
       "confidence": 95,
-      "reasoning": "9.2x volume spike, fresh news catalyst, low float, trending on social media",
+      "reasoning": "9.0x volume spike, Strong 82.1% gap, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: -30.7%",
-        "Volume: 9.2x",
-        "Float: 7.0M",
-        "News: 13"
-      ],
-      "news": "12 Consumer Staples Stocks Moving In Monday's Afte | Evolution Metals & Technologies, Barfresh Food Gro | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "12 Consumer Staples Stocks Moving In Monday's After-Market Session",
-      "gap_percent": -30.7,
-      "volume_ratio": 9.2,
-      "float": 7.0,
-      "short_percent": 0.2,
-      "news_count": 13,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 0.9,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (10 articles)",
-        "extreme volume (9.2x)",
-        "accelerating volume (3 days)",
-        "ultra-low float (7.0M)",
-        "micro-cap (21M)",
-        "near 52-week low bounce"
-      ],
-      "social_score": 100,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "EYPT",
-      "name": "EyePoint, Inc.",
-      "price3DaysAgo": 14.75,
-      "priceToday": 4.87,
-      "predictedMove": "+28% (Major Move)",
-      "confidence": 95,
-      "reasoning": "25.8x volume spike, fresh news catalyst, high short interest (22%), trending on social media",
-      "keyFactors": [
-        "Gap: -67.0%",
-        "Volume: 25.8x",
-        "Float: 66.8M",
-        "Short: 22%",
+        "Gap: 82.1%",
+        "Volume: 9.0x",
+        "Float: 1.4M",
         "News: 20"
       ],
-      "news": "Let's take a look at the stocks that are in motion | Let's have a look at the top gainers and losers in | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Let's take a look at the stocks that are in motion in today's session.",
-      "gap_percent": -67.0,
-      "volume_ratio": 25.8,
-      "float": 66.8,
-      "short_percent": 22.0,
+      "news": "Top movers in Tuesday's after hours session | Top stock movements in today's session. | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Top movers in Tuesday's after hours session",
+      "gap_percent": 82.1,
+      "volume_ratio": 9.0,
+      "float": 1.4,
+      "short_percent": 1.7,
       "news_count": 20,
       "isPrediction": true,
       "learningWeights": {
@@ -76,39 +31,119 @@
         "sentiment_weight": 1.0,
         "social_weight": 1.0
       },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (10 articles)",
-        "extreme volume (25.8x)",
-        "accelerating volume (3 days)",
-        "high short interest (22%)"
-      ],
-      "social_score": 120,
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 100,
       "is_trending": true,
       "red_flags": [
+        "Large move may have already occurred",
         "\u26a0\ufe0f Extreme gap - possible data error or halt"
       ]
     },
     {
-      "ticker": "NIVF",
-      "name": "NewGenIvf Group Limited",
-      "price3DaysAgo": 0.59,
-      "priceToday": 0.61,
-      "predictedMove": "+7% (Moderate)",
+      "ticker": "AUR",
+      "name": "Aurora Innovation, Inc.",
+      "price3DaysAgo": 6.97,
+      "priceToday": 6.15,
+      "predictedMove": "+5% (Moderate)",
       "confidence": 95,
-      "reasoning": "3.0x volume spike, fresh news catalyst, low float, trending on social media",
+      "reasoning": "3.5x volume spike, fresh news catalyst, high short interest (19%), trending on social media",
       "keyFactors": [
-        "Gap: 3.8%",
-        "Volume: 3.0x",
-        "Float: 0.2M",
+        "Gap: -11.8%",
+        "Volume: 3.5x",
+        "Float: 1420.2M",
+        "Short: 19%",
+        "News: 14"
+      ],
+      "news": "Nasdaq Drops, Chip Stocks Crater As Bond Yields Bi | Fabrinet, IQIYI, Hesai Group And Other Big Stocks  | \ud83d\udd25 Trending based on elevated_activity",
+      "catalyst": "Nasdaq Drops, Chip Stocks Crater As Bond Yields Bite: Stock Market Today",
+      "gap_percent": -11.8,
+      "volume_ratio": 3.5,
+      "float": 1420.2,
+      "short_percent": 18.6,
+      "news_count": 14,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 0.9,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (10 articles)",
+        "extreme volume (3.5x)",
+        "accelerating volume (3 days)"
+      ],
+      "social_score": 45,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "JEM",
+      "name": "707 Cayman Holdings Limited",
+      "price3DaysAgo": 4.04,
+      "priceToday": 4.19,
+      "predictedMove": "+6% (Moderate)",
+      "confidence": 91.5,
+      "reasoning": "fresh news catalyst, low float",
+      "keyFactors": [
+        "Gap: 3.7%",
+        "Volume: 1.8x",
+        "Float: 0.1M",
+        "Short: 12%",
+        "News: 2"
+      ],
+      "news": " | ",
+      "catalyst": "",
+      "gap_percent": 3.7,
+      "volume_ratio": 1.8,
+      "float": 0.1,
+      "short_percent": 12.0,
+      "news_count": 2,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 0.9,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (2 articles)",
+        "squeeze setup (float 0.1M + 12% short)",
+        "ultra-low float (0.1M)"
+      ],
+      "social_score": 0,
+      "is_trending": false,
+      "red_flags": []
+    },
+    {
+      "ticker": "PSIG",
+      "name": "PS International Group Ltd.",
+      "price3DaysAgo": 1.08,
+      "priceToday": 1.59,
+      "predictedMove": "+23% (Major Move)",
+      "confidence": 79.0,
+      "reasoning": "\u26a0\ufe0f EXTREME 75.7x volume (SUSPICIOUS), Strong 47.2% gap, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: 47.2%",
+        "Volume: 75.7x",
+        "Float: 7.8M",
         "News: 1"
       ],
-      "news": " | \ud83d\udd25 Trending based on elevated_activity",
+      "news": " | \ud83d\udd25 Trending based on high_activity",
       "catalyst": "",
-      "gap_percent": 3.8,
-      "volume_ratio": 3.0,
-      "float": 0.2,
-      "short_percent": 0.1,
+      "gap_percent": 47.2,
+      "volume_ratio": 75.7,
+      "float": 7.8,
+      "short_percent": 1.1,
       "news_count": 1,
       "isPrediction": true,
       "learningWeights": {
@@ -120,163 +155,35 @@
         "sentiment_weight": 1.0,
         "social_weight": 1.0
       },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (1 articles)",
-        "extreme volume (3.0x)",
-        "ultra-low float (0.2M)"
-      ],
-      "social_score": 40,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "PROP",
-      "name": "Prairie Operating Co.",
-      "price3DaysAgo": 1.0,
-      "priceToday": 0.71,
-      "predictedMove": "+16% (Strong)",
-      "confidence": 95,
-      "reasoning": "6.1x volume spike, fresh news catalyst, high short interest (22%), trending on social media",
-      "keyFactors": [
-        "Gap: -29.0%",
-        "Volume: 6.1x",
-        "Float: 71.6M",
-        "Short: 22%",
-        "News: 13"
-      ],
-      "news": "Let's take a look at the stocks that are in motion | Transcript: Prairie Operating Q2 2026 Earnings Con | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Let's take a look at the stocks that are in motion in today's session.",
-      "gap_percent": -29.0,
-      "volume_ratio": 6.1,
-      "float": 71.6,
-      "short_percent": 21.8,
-      "news_count": 13,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 0.9,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (10 articles)",
-        "extreme volume (6.1x)",
-        "accelerating volume (3 days)",
-        "high short interest (22%)",
-        "micro-cap (69M)"
-      ],
-      "social_score": 105,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "WFF",
-      "name": "WF Holding Limited",
-      "price3DaysAgo": 1.44,
-      "priceToday": 2.02,
-      "predictedMove": "+25% (Major Move)",
-      "confidence": 92.5,
-      "reasoning": "\u26a0\ufe0f EXTREME 77.2x volume (SUSPICIOUS), Strong 40.3% gap, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: 40.3%",
-        "Volume: 77.2x",
-        "Float: 1.6M",
-        "News: 7"
-      ],
-      "news": "Which stocks are moving after the closing bell on  | Let's take a look at the stocks that are in motion | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Which stocks are moving after the closing bell on Monday?",
-      "gap_percent": 40.3,
-      "volume_ratio": 77.2,
-      "float": 1.6,
-      "short_percent": 0.5,
-      "news_count": 7,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 0.9,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
       "tier": 1,
       "momentum_indicators": [],
       "social_score": 95,
       "is_trending": true,
       "red_flags": [
-        "\u26a0\ufe0f EXTREME VOLUME - likely already moved or pump",
-        "Large move may have already occurred"
-      ]
-    },
-    {
-      "ticker": "TRUG",
-      "name": "TruGolf Holdings, Inc.",
-      "price3DaysAgo": 0.97,
-      "priceToday": 1.54,
-      "predictedMove": "+26% (Major Move)",
-      "confidence": 87.0,
-      "reasoning": "\u26a0\ufe0f EXTREME 56.1x volume (SUSPICIOUS), Strong 58.8% gap, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: 58.8%",
-        "Volume: 56.1x",
-        "Float: 1.9M",
-        "News: 10"
-      ],
-      "news": "Which stocks are moving after the closing bell on  | Let's take a look at the stocks that are in motion | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Which stocks are moving after the closing bell on Monday?",
-      "gap_percent": 58.8,
-      "volume_ratio": 56.1,
-      "float": 1.9,
-      "short_percent": 4.3,
-      "news_count": 10,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 0.9,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 95,
-      "is_trending": true,
-      "red_flags": [
-        "\u26a0\ufe0f EXTREME VOLUME - likely already moved or pump",
         "Large move may have already occurred",
-        "\u26a0\ufe0f Extreme gap - possible data error or halt"
+        "\u26a0\ufe0f EXTREME VOLUME - likely already moved or pump"
       ]
     },
     {
-      "ticker": "CURV",
-      "name": "Torrid Holdings Inc.",
-      "price3DaysAgo": 2.2,
-      "priceToday": 2.02,
-      "predictedMove": "+3%",
-      "confidence": 83.5,
-      "reasoning": "fresh news catalyst, high short interest (16%), trending on social media",
+      "ticker": "FNG",
+      "name": "Leverage Shares 2X Long FN Daily ETF",
+      "price3DaysAgo": 11.7,
+      "priceToday": 7.17,
+      "predictedMove": "+11% (Strong)",
+      "confidence": 70.0,
+      "reasoning": "7.6x volume spike, trending on social media",
       "keyFactors": [
-        "Gap: -8.2%",
-        "Volume: 1.3x",
-        "Float: 25.9M",
-        "Short: 16%",
-        "News: 10"
+        "Gap: -38.7%",
+        "Volume: 7.6x",
+        "Float: 1000.0M"
       ],
-      "news": " |  | \ud83d\udd25 Trending based on elevated_activity",
-      "catalyst": "",
-      "gap_percent": -8.2,
-      "volume_ratio": 1.3,
-      "float": 25.9,
-      "short_percent": 15.6,
-      "news_count": 10,
+      "news": "Gap: -38.7%, Vol: 7.6x | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Technical setup",
+      "gap_percent": -38.7,
+      "volume_ratio": 7.6,
+      "float": 1000.0,
+      "short_percent": 0,
+      "news_count": 0,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.1,
@@ -289,76 +196,34 @@
       },
       "tier": 2,
       "momentum_indicators": [
-        "news (10 articles)",
-        "squeeze setup (float 25.9M + 16% short)",
-        "micro-cap (201M)"
+        "extreme volume (7.6x)",
+        "accelerating volume (3 days)"
       ],
-      "social_score": 25,
+      "social_score": 75,
       "is_trending": true,
       "red_flags": []
     },
     {
-      "ticker": "OTLK",
-      "name": "Outlook Therapeutics, Inc.",
-      "price3DaysAgo": 0.76,
-      "priceToday": 0.67,
-      "predictedMove": "+3%",
-      "confidence": 77.0,
+      "ticker": "MSTU",
+      "name": "T-Rex 2X Long MSTR Daily Target ETF",
+      "price3DaysAgo": 1.88,
+      "priceToday": 1.7,
+      "predictedMove": "+2%",
+      "confidence": 53.5,
       "reasoning": "fresh news catalyst",
       "keyFactors": [
-        "Gap: -11.1%",
-        "Volume: 1.6x",
-        "Float: 105.0M",
-        "Short: 12%",
-        "News: 11"
-      ],
-      "news": "5 Stocks In The Spotlight Last Week: Wall Street's | ",
-      "catalyst": "5 Stocks In The Spotlight Last Week: Wall Street's Most Accurate Analysts Weigh In",
-      "gap_percent": -11.1,
-      "volume_ratio": 1.6,
-      "float": 105.0,
-      "short_percent": 11.5,
-      "news_count": 11,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 0.9,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (10 articles)",
-        "micro-cap (126M)"
-      ],
-      "social_score": 15,
-      "is_trending": false,
-      "red_flags": []
-    },
-    {
-      "ticker": "BITO",
-      "name": "ProShares Bitcoin ETF",
-      "price3DaysAgo": 8.5,
-      "priceToday": 8.69,
-      "predictedMove": "+1%",
-      "confidence": 58.0,
-      "reasoning": "fresh news catalyst",
-      "keyFactors": [
-        "Gap: 2.2%",
+        "Gap: -9.8%",
         "Volume: 1.2x",
         "Float: 1000.0M",
-        "News: 11"
+        "News: 8"
       ],
-      "news": "Exchange-Traded Funds Higher, Equity Futures Mixed | ",
-      "catalyst": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Monday Amid Lower Rate Hike Expectations",
-      "gap_percent": 2.2,
+      "news": "Bitcoin Is Under Pressure, But This Strategy ETF I | ",
+      "catalyst": "Bitcoin Is Under Pressure, But This Strategy ETF Is Suddenly the Fund to Watch",
+      "gap_percent": -9.8,
       "volume_ratio": 1.2,
       "float": 1000.0,
       "short_percent": 0,
-      "news_count": 11,
+      "news_count": 8,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.1,
@@ -371,16 +236,16 @@
       },
       "tier": 2,
       "momentum_indicators": [
-        "news (10 articles)",
-        "near 52-week low bounce"
+        "news (7 articles)",
+        "accelerating volume (3 days)"
       ],
-      "social_score": 0,
+      "social_score": 10,
       "is_trending": false,
       "red_flags": []
     }
   ],
-  "generatedTime": "2026-08-18 01:36 AM",
-  "targetDate": "2026-08-18",
+  "generatedTime": "2026-08-19 01:35 AM",
+  "targetDate": "2026-08-19",
   "tradingStyle": "DAY_TRADING",
   "learningSystem": {
     "enabled": true,
@@ -397,7 +262,7 @@
     "insights": {
       "best_gap_range": {
         "range": "High (10-20%)",
-        "accuracy": 75.0
+        "accuracy": 76.92307692307693
       },
       "recent_trend": 20.0,
       "confidence_adjustment": -10,
