@@ -3,25 +3,25 @@
     {
       "ticker": "PMI",
       "name": "Picard Medical, Inc.",
-      "price3DaysAgo": 3.21,
-      "priceToday": 5.13,
-      "predictedMove": "+24% (Major Move)",
+      "price3DaysAgo": 5.13,
+      "priceToday": 9.55,
+      "predictedMove": "+21% (Major Move)",
       "confidence": 95,
-      "reasoning": "9.7x volume spike, Strong 59.8% gap, fresh news catalyst, low float, trending on social media",
+      "reasoning": "4.6x volume spike, Strong 86.2% gap, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: 59.8%",
-        "Volume: 9.7x",
+        "Gap: 86.2%",
+        "Volume: 4.6x",
         "Float: 1.1M",
         "Short: 6%",
-        "News: 17"
+        "News: 18"
       ],
-      "news": "Top movers in Monday's session | 12 Health Care Stocks Moving In Monday's After-Mar | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Top movers in Monday's session",
-      "gap_percent": 59.8,
-      "volume_ratio": 9.7,
+      "news": "What's going on in today's after hours session | Let's take a look at the stocks that are in motion | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "What's going on in today's after hours session",
+      "gap_percent": 86.2,
+      "volume_ratio": 4.6,
       "float": 1.1,
       "short_percent": 5.9,
-      "news_count": 17,
+      "news_count": 18,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.1,
@@ -34,7 +34,7 @@
       },
       "tier": 1,
       "momentum_indicators": [],
-      "social_score": 100,
+      "social_score": 90,
       "is_trending": true,
       "red_flags": [
         "\u26a0\ufe0f Extreme gap - possible data error or halt",
@@ -42,27 +42,27 @@
       ]
     },
     {
-      "ticker": "BTCT",
-      "name": "BTC Digital Ltd.",
-      "price3DaysAgo": 1.14,
-      "priceToday": 1.74,
-      "predictedMove": "+20% (Major Move)",
+      "ticker": "RZLV",
+      "name": "Rezolve AI PLC",
+      "price3DaysAgo": 2.43,
+      "priceToday": 2.96,
+      "predictedMove": "+13% (Strong)",
       "confidence": 95,
-      "reasoning": "elevated volume, Strong 52.6% gap, fresh news catalyst, low float, trending on social media",
+      "reasoning": "14.9x volume spike, Strong 21.8% gap, fresh news catalyst, trending on social media",
       "keyFactors": [
-        "Gap: 52.6%",
-        "Volume: 2.3x",
-        "Float: 9.2M",
-        "Short: 13%",
-        "News: 16"
+        "Gap: 21.8%",
+        "Volume: 14.9x",
+        "Float: 197.6M",
+        "Short: 15%",
+        "News: 15"
       ],
-      "news": "Which stocks are moving after the closing bell on  | Top movers in Monday's session | \ud83d\udd25 Trending based on moderate_activity",
-      "catalyst": "Which stocks are moving after the closing bell on Monday?",
-      "gap_percent": 52.6,
-      "volume_ratio": 2.3,
-      "float": 9.2,
-      "short_percent": 13.0,
-      "news_count": 16,
+      "news": "These stocks are the most active in today's sessio | Let's uncover which stocks are experiencing notabl | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "These stocks are the most active in today's session",
+      "gap_percent": 21.8,
+      "volume_ratio": 14.9,
+      "float": 197.6,
+      "short_percent": 14.9,
+      "news_count": 15,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.1,
@@ -75,7 +75,45 @@
       },
       "tier": 1,
       "momentum_indicators": [],
-      "social_score": 40,
+      "social_score": 90,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "JEM",
+      "name": "707 Cayman Holdings Limited",
+      "price3DaysAgo": 3.82,
+      "priceToday": 6.8,
+      "predictedMove": "+28% (Major Move)",
+      "confidence": 95,
+      "reasoning": "20.3x volume spike, Strong 77.9% gap, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: 77.9%",
+        "Volume: 20.3x",
+        "Float: 0.1M",
+        "Short: 12%",
+        "News: 8"
+      ],
+      "news": "707 Cayman Holdings Signs Term Sheet To Acquire Ph | 12 Consumer Discretionary Stocks Moving In Tuesday | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "707 Cayman Holdings Signs Term Sheet To Acquire Pharmaceutical Botanicals Firm Crucial Innovation ; ",
+      "gap_percent": 77.9,
+      "volume_ratio": 20.3,
+      "float": 0.1,
+      "short_percent": 12.0,
+      "news_count": 8,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 115,
       "is_trending": true,
       "red_flags": [
         "\u26a0\ufe0f Extreme gap - possible data error or halt",
@@ -83,27 +121,26 @@
       ]
     },
     {
-      "ticker": "PLUG",
-      "name": "Plug Power Inc.",
-      "price3DaysAgo": 2.27,
-      "priceToday": 2.17,
-      "predictedMove": "+6% (Moderate)",
-      "confidence": 78.0,
-      "reasoning": "fresh news catalyst, high short interest (24%)",
+      "ticker": "NVD",
+      "name": "Graniteshares 2x Short NVDA Daily ETF",
+      "price3DaysAgo": 4.57,
+      "priceToday": 4.36,
+      "predictedMove": "+1%",
+      "confidence": 53.5,
+      "reasoning": "fresh news catalyst",
       "keyFactors": [
-        "Gap: -4.4%",
-        "Volume: 1.5x",
-        "Float: 1333.4M",
-        "Short: 24%",
-        "News: 11"
+        "Gap: -4.6%",
+        "Volume: 1.4x",
+        "Float: 1000.0M",
+        "News: 10"
       ],
-      "news": "Full Transcript: Plug Power Q2 2026 Earnings Call | ",
-      "catalyst": "Full Transcript: Plug Power Q2 2026 Earnings Call",
-      "gap_percent": -4.4,
-      "volume_ratio": 1.5,
-      "float": 1333.4,
-      "short_percent": 23.7,
-      "news_count": 11,
+      "news": " | ",
+      "catalyst": "",
+      "gap_percent": -4.6,
+      "volume_ratio": 1.4,
+      "float": 1000.0,
+      "short_percent": 0,
+      "news_count": 10,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.1,
@@ -118,96 +155,15 @@
       "momentum_indicators": [
         "news (10 articles)",
         "accelerating volume (3 days)",
-        "high short interest (24%)"
-      ],
-      "social_score": 15,
-      "is_trending": false,
-      "red_flags": []
-    },
-    {
-      "ticker": "SQFT",
-      "name": "Presidio Property Trust, Inc.",
-      "price3DaysAgo": 1.54,
-      "priceToday": 1.47,
-      "predictedMove": "+5%",
-      "confidence": 66.5,
-      "reasoning": "fresh news catalyst, low float",
-      "keyFactors": [
-        "Gap: -4.5%",
-        "Volume: 1.3x",
-        "Float: 1.0M",
-        "News: 2"
-      ],
-      "news": " | ",
-      "catalyst": "",
-      "gap_percent": -4.5,
-      "volume_ratio": 1.3,
-      "float": 1.0,
-      "short_percent": 3.7,
-      "news_count": 2,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (2 articles)",
-        "accelerating volume (3 days)",
-        "ultra-low float (1.0M)",
         "near 52-week low bounce"
       ],
       "social_score": 0,
       "is_trending": false,
       "red_flags": []
-    },
-    {
-      "ticker": "FBDT",
-      "name": "First Breach, Inc.",
-      "price3DaysAgo": 3.99,
-      "priceToday": 2.05,
-      "predictedMove": "+9% (Moderate)",
-      "confidence": 56.0,
-      "reasoning": "low float, trending on social media",
-      "keyFactors": [
-        "Gap: -48.6%",
-        "Volume: 1.7x",
-        "Float: 15.6M"
-      ],
-      "news": "Gap: -48.6%, Vol: 1.7x | \ud83d\udd25 Trending based on moderate_activity",
-      "catalyst": "Technical setup",
-      "gap_percent": -48.6,
-      "volume_ratio": 1.7,
-      "float": 15.6,
-      "short_percent": 0,
-      "news_count": 0,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "micro-cap (92M)",
-        "near 52-week low bounce"
-      ],
-      "social_score": 30,
-      "is_trending": true,
-      "red_flags": []
     }
   ],
-  "generatedTime": "2026-08-25 01:35 AM",
-  "targetDate": "2026-08-25",
+  "generatedTime": "2026-08-26 01:35 AM",
+  "targetDate": "2026-08-26",
   "tradingStyle": "DAY_TRADING",
   "learningSystem": {
     "enabled": true,
@@ -224,9 +180,9 @@
     "insights": {
       "best_gap_range": {
         "range": "High (10-20%)",
-        "accuracy": 75.0
+        "accuracy": 76.92307692307693
       },
-      "recent_trend": 5.0,
+      "recent_trend": 10.0,
       "confidence_adjustment": -10,
       "weights_updated": true
     }
