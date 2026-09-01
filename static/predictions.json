@@ -1,26 +1,26 @@
 {
   "predictions": [
     {
-      "ticker": "XPON",
-      "name": "Expion360 Inc.",
-      "price3DaysAgo": 5.27,
-      "priceToday": 9.17,
-      "predictedMove": "+20% (Strong)",
+      "ticker": "AEHL",
+      "name": "Antelope Enterprise Holdings Limited",
+      "price3DaysAgo": 3.54,
+      "priceToday": 6.49,
+      "predictedMove": "+28% (Major Move)",
       "confidence": 95,
-      "reasoning": "Strong 74.0% gap, fresh news catalyst, low float, trending on social media",
+      "reasoning": "\u26a0\ufe0f Very high 43.7x volume, Strong 83.3% gap, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: 74.0%",
-        "Volume: 1.5x",
-        "Float: 0.9M",
-        "News: 18"
+        "Gap: 83.3%",
+        "Volume: 43.7x",
+        "Float: 0.2M",
+        "News: 12"
       ],
-      "news": "What's going on in today's session | Unusual volume stocks in Wednesday's session | \ud83d\udd25 Trending based on moderate_activity",
-      "catalyst": "What's going on in today's session",
-      "gap_percent": 74.0,
-      "volume_ratio": 1.5,
-      "float": 0.9,
-      "short_percent": 2.2,
-      "news_count": 18,
+      "news": "Wondering what's happening in today's after-hours  | Top movers analysis one hour before the close of t | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Wondering what's happening in today's after-hours session?",
+      "gap_percent": 83.3,
+      "volume_ratio": 43.7,
+      "float": 0.2,
+      "short_percent": 1.1,
+      "news_count": 12,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.1,
@@ -31,85 +31,37 @@
         "sentiment_weight": 1.0,
         "social_weight": 1.0
       },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (8 articles)",
-        "ultra-low float (0.9M)",
-        "large gap (74.0%)",
-        "3-day momentum (47.9% gain)"
-      ],
-      "social_score": 30,
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 115,
       "is_trending": true,
       "red_flags": [
         "Large move may have already occurred",
-        "\u26a0\ufe0f Extreme gap - possible data error or halt"
+        "\u26a0\ufe0f Extreme gap - possible data error or halt",
+        "\u26a0\ufe0f Very high volume - proceed with caution"
       ]
     },
     {
-      "ticker": "NEXR",
-      "name": "Nexera Technologies Ltd",
-      "price3DaysAgo": 2.7,
-      "priceToday": 2.01,
-      "predictedMove": "+21% (Major Move)",
+      "ticker": "GPRO",
+      "name": "GoPro, Inc.",
+      "price3DaysAgo": 0.6,
+      "priceToday": 0.88,
+      "predictedMove": "+22% (Major Move)",
       "confidence": 95,
-      "reasoning": "18.2x volume spike, fresh news catalyst, low float, trending on social media",
+      "reasoning": "19.0x volume spike, Strong 46.0% gap, fresh news catalyst, high short interest (16%), trending on social media",
       "keyFactors": [
-        "Gap: -25.6%",
-        "Volume: 18.2x",
-        "Float: 0.1M",
-        "Short: 13%",
-        "News: 10"
-      ],
-      "news": "What's going on in today's session | Which stocks are experiencing notable movement on  | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "What's going on in today's session",
-      "gap_percent": -25.6,
-      "volume_ratio": 18.2,
-      "float": 0.1,
-      "short_percent": 13.2,
-      "news_count": 10,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (4 articles)",
-        "extreme volume (18.2x)",
-        "accelerating volume (3 days)",
-        "squeeze setup (float 0.1M + 13% short)",
-        "ultra-low float (0.1M)",
-        "near 52-week low bounce"
-      ],
-      "social_score": 115,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "PSNYW",
-      "name": "Polestar Automotive Holding UK PLC",
-      "price3DaysAgo": 3.73,
-      "priceToday": 5.38,
-      "predictedMove": "+14% (Strong)",
-      "confidence": 95,
-      "reasoning": "elevated volume, Strong 44.2% gap, fresh news catalyst, trending on social media",
-      "keyFactors": [
-        "Gap: 44.2%",
-        "Volume: 2.2x",
-        "Float: 29.3M",
+        "Gap: 46.0%",
+        "Volume: 19.0x",
+        "Float: 137.6M",
+        "Short: 16%",
         "News: 15"
       ],
-      "news": "What's going on in today's session | Unusual volume stocks in Wednesday's session | \ud83d\udd25 Trending based on moderate_activity",
-      "catalyst": "What's going on in today's session",
-      "gap_percent": 44.2,
-      "volume_ratio": 2.2,
-      "float": 29.3,
-      "short_percent": 0,
+      "news": "Wondering what's happening in today's after-hours  | Top movers analysis one hour before the close of t | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Wondering what's happening in today's after-hours session?",
+      "gap_percent": 46.0,
+      "volume_ratio": 19.0,
+      "float": 137.6,
+      "short_percent": 16.2,
       "news_count": 15,
       "isPrediction": true,
       "learningWeights": {
@@ -123,34 +75,33 @@
       },
       "tier": 1,
       "momentum_indicators": [],
-      "social_score": 40,
+      "social_score": 105,
       "is_trending": true,
       "red_flags": [
         "Large move may have already occurred"
       ]
     },
     {
-      "ticker": "YYGH",
-      "name": "YY Group Holding Limited",
-      "price3DaysAgo": 1.15,
-      "priceToday": 2.12,
-      "predictedMove": "+24% (Major Move)",
+      "ticker": "COOT",
+      "name": "Australian Oilseeds Holdings Limited",
+      "price3DaysAgo": 0.46,
+      "priceToday": 0.59,
+      "predictedMove": "+20% (Strong)",
       "confidence": 95,
-      "reasoning": "10.6x volume spike, Strong 84.3% gap, fresh news catalyst, low float, trending on social media",
+      "reasoning": "14.7x volume spike, Strong 28.9% gap, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: 84.3%",
-        "Volume: 10.6x",
-        "Float: 2.1M",
-        "Short: 9%",
-        "News: 17"
+        "Gap: 28.9%",
+        "Volume: 14.7x",
+        "Float: 8.1M",
+        "News: 9"
       ],
-      "news": "What's going on in today's session | Which stocks are most active on Wednesday? | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "What's going on in today's session",
-      "gap_percent": 84.3,
-      "volume_ratio": 10.6,
-      "float": 2.1,
-      "short_percent": 9.0,
-      "news_count": 17,
+      "news": "Wondering what's happening in today's after-hours  | Top movers analysis one hour before the close of t | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Wondering what's happening in today's after-hours session?",
+      "gap_percent": 28.9,
+      "volume_ratio": 14.7,
+      "float": 8.1,
+      "short_percent": 1.5,
+      "news_count": 9,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.1,
@@ -165,32 +116,70 @@
       "momentum_indicators": [],
       "social_score": 115,
       "is_trending": true,
-      "red_flags": [
-        "Large move may have already occurred",
-        "\u26a0\ufe0f Extreme gap - possible data error or halt"
-      ]
+      "red_flags": []
     },
     {
-      "ticker": "PLUG",
-      "name": "Plug Power Inc.",
-      "price3DaysAgo": 2.27,
-      "priceToday": 2.17,
-      "predictedMove": "+5% (Moderate)",
-      "confidence": 78.0,
-      "reasoning": "fresh news catalyst, high short interest (23%)",
+      "ticker": "MWG",
+      "name": "Multi Ways Holdings Limited",
+      "price3DaysAgo": 1.37,
+      "priceToday": 1.21,
+      "predictedMove": "+10% (Moderate)",
+      "confidence": 95,
+      "reasoning": "3.3x volume spike, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: -4.4%",
-        "Volume: 1.3x",
-        "Float: 1333.4M",
-        "Short: 23%",
+        "Gap: -11.6%",
+        "Volume: 3.3x",
+        "Float: 4.0M",
+        "News: 1"
+      ],
+      "news": "12 Industrials Stocks Moving In Monday's After-Mar | \ud83d\udd25 Trending based on elevated_activity",
+      "catalyst": "12 Industrials Stocks Moving In Monday's After-Market Session",
+      "gap_percent": -11.6,
+      "volume_ratio": 3.3,
+      "float": 4.0,
+      "short_percent": 1.5,
+      "news_count": 1,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "extreme volume (3.3x)",
+        "accelerating volume (3 days)",
+        "ultra-low float (4.0M)",
+        "near 52-week low bounce"
+      ],
+      "social_score": 55,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "YDDL",
+      "name": "One and one Green Technologies. Inc",
+      "price3DaysAgo": 1.65,
+      "priceToday": 2.28,
+      "predictedMove": "+24% (Major Move)",
+      "confidence": 92.5,
+      "reasoning": "\u26a0\ufe0f EXTREME 75.1x volume (SUSPICIOUS), Strong 38.2% gap, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: 38.2%",
+        "Volume: 75.1x",
+        "Float: 9.9M",
         "News: 11"
       ],
-      "news": "Which stocks are most active on Wednesday? | ",
-      "catalyst": "Which stocks are most active on Wednesday?",
-      "gap_percent": -4.4,
-      "volume_ratio": 1.3,
-      "float": 1333.4,
-      "short_percent": 23.5,
+      "news": "Why Webuy Global Shares Are Trading Higher By 13%; |  | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Why Webuy Global Shares Are Trading Higher By 13%; Here Are 20 Stocks Moving Premarket",
+      "gap_percent": 38.2,
+      "volume_ratio": 75.1,
+      "float": 9.9,
+      "short_percent": 0.2,
       "news_count": 11,
       "isPrediction": true,
       "learningWeights": {
@@ -202,37 +191,36 @@
         "sentiment_weight": 1.0,
         "social_weight": 1.0
       },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (10 articles)",
-        "high short interest (23%)"
-      ],
-      "social_score": 15,
-      "is_trending": false,
-      "red_flags": []
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 95,
+      "is_trending": true,
+      "red_flags": [
+        "\u26a0\ufe0f EXTREME VOLUME - likely already moved or pump",
+        "Large move may have already occurred"
+      ]
     },
     {
-      "ticker": "SNAP",
-      "name": "Snap Inc.",
-      "price3DaysAgo": 5.92,
-      "priceToday": 5.42,
+      "ticker": "TSLL",
+      "name": "Direxion Daily TSLA Bull 2X Shares",
+      "price3DaysAgo": 8.98,
+      "priceToday": 9.97,
       "predictedMove": "+3%",
-      "confidence": 72.5,
-      "reasoning": "fresh news catalyst",
+      "confidence": 80.5,
+      "reasoning": "Strong 11.0% gap, fresh news catalyst",
       "keyFactors": [
-        "Gap: -8.4%",
-        "Volume: 1.8x",
-        "Float: 1117.4M",
-        "Short: 9%",
-        "News: 17"
+        "Gap: 11.0%",
+        "Volume: 1.3x",
+        "Float: 1000.0M",
+        "News: 10"
       ],
-      "news": "Which stocks are most active on Wednesday? | What Is Going on With Meta Platforms Stock on Wedn",
-      "catalyst": "Which stocks are most active on Wednesday?",
-      "gap_percent": -8.4,
-      "volume_ratio": 1.8,
-      "float": 1117.4,
-      "short_percent": 8.8,
-      "news_count": 17,
+      "news": " | ",
+      "catalyst": "",
+      "gap_percent": 11.0,
+      "volume_ratio": 1.3,
+      "float": 1000.0,
+      "short_percent": 0,
+      "news_count": 10,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.1,
@@ -246,15 +234,56 @@
       "tier": 2,
       "momentum_indicators": [
         "news (10 articles)",
-        "accelerating volume (3 days)"
+        "large gap (11.0%)"
+      ],
+      "social_score": 15,
+      "is_trending": false,
+      "red_flags": []
+    },
+    {
+      "ticker": "CSTE",
+      "name": "Caesarstone Ltd.",
+      "price3DaysAgo": 3.14,
+      "priceToday": 2.88,
+      "predictedMove": "+2%",
+      "confidence": 69.5,
+      "reasoning": "fresh news catalyst",
+      "keyFactors": [
+        "Gap: -8.3%",
+        "Volume: 1.6x",
+        "Float: 20.4M",
+        "News: 10"
+      ],
+      "news": " | ",
+      "catalyst": "",
+      "gap_percent": -8.3,
+      "volume_ratio": 1.6,
+      "float": 20.4,
+      "short_percent": 1.0,
+      "news_count": 10,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (10 articles)",
+        "accelerating volume (3 days)",
+        "micro-cap (100M)"
       ],
       "social_score": 10,
       "is_trending": false,
       "red_flags": []
     }
   ],
-  "generatedTime": "2026-08-27 01:35 AM",
-  "targetDate": "2026-08-27",
+  "generatedTime": "2026-09-01 01:35 AM",
+  "targetDate": "2026-09-01",
   "tradingStyle": "DAY_TRADING",
   "learningSystem": {
     "enabled": true,
@@ -271,9 +300,9 @@
     "insights": {
       "best_gap_range": {
         "range": "High (10-20%)",
-        "accuracy": 83.33333333333334
+        "accuracy": 90.9090909090909
       },
-      "recent_trend": 10.0,
+      "recent_trend": 5.0,
       "confidence_adjustment": -10,
       "weights_updated": true
     }
