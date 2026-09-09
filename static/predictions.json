@@ -1,66 +1,27 @@
 {
   "predictions": [
     {
-      "ticker": "SGLD",
-      "name": "Scorpio Gold Corporation American Depositary Shares",
-      "price3DaysAgo": 5.08,
-      "priceToday": 7.23,
-      "predictedMove": "+15% (Strong)",
-      "confidence": 95,
-      "reasoning": "6.2x volume spike, Strong 42.3% gap, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: 42.3%",
-        "Volume: 6.2x",
-        "Float: 14.2M",
-        "News: 2"
-      ],
-      "news": "Trading Halt: Halt status updated at 2:40:00 PM ET | Scorpio Gold Shares Soar 180% on Its Nasdaq Tradin | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Trading Halt: Halt status updated at 2:40:00 PM ET: Quotation Resumption: News and Resumption Times",
-      "gap_percent": 42.3,
-      "volume_ratio": 6.2,
-      "float": 14.2,
-      "short_percent": 0,
-      "news_count": 2,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 100,
-      "is_trending": true,
-      "red_flags": [
-        "Large move may have already occurred"
-      ]
-    },
-    {
-      "ticker": "EOSE",
-      "name": "Eos Energy Enterprises, Inc.",
-      "price3DaysAgo": 3.04,
+      "ticker": "LASE",
+      "name": "Laser Photonics Corporation",
+      "price3DaysAgo": 1.4,
       "priceToday": NaN,
       "predictedMove": "+nan%",
       "confidence": 95,
-      "reasoning": "5.2x volume spike, fresh news catalyst, high short interest (31%), trending on social media",
+      "reasoning": "20.0x volume spike, fresh news catalyst, trending on social media",
       "keyFactors": [
         "Gap: nan%",
-        "Volume: 5.2x",
-        "Float: 357.3M",
-        "Short: 31%",
-        "News: 16"
+        "Volume: 20.0x",
+        "Float: 42.4M",
+        "Short: 14%",
+        "News: 15"
       ],
-      "news": "These stocks are making the most noise in today's  | 12 Industrials Stocks Moving In Wednesday's Intrad | \ud83d\udd25 Trending based on elevated_activity",
-      "catalyst": "These stocks are making the most noise in today's session.",
+      "news": "Top movers analysis one hour before the close of t | Top movers analysis in the middle of the day on 20 | \ud83d\udd25 Trending based on moderate_activity",
+      "catalyst": "Top movers analysis one hour before the close of the markets on 2026-09-08: top gainers and losers i",
       "gap_percent": NaN,
-      "volume_ratio": 5.2,
-      "float": 357.3,
-      "short_percent": 31.3,
-      "news_count": 16,
+      "volume_ratio": 20.0,
+      "float": 42.4,
+      "short_percent": 13.8,
+      "news_count": 15,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.1,
@@ -73,36 +34,37 @@
       },
       "tier": 2,
       "momentum_indicators": [
-        "news (10 articles)",
-        "extreme volume (5.2x)",
+        "news (8 articles)",
+        "extreme volume (20.0x)",
         "accelerating volume (3 days)",
-        "high short interest (31%)"
+        "squeeze setup (float 42.4M + 14% short)",
+        "micro-cap (48M)"
       ],
-      "social_score": 25,
+      "social_score": 40,
       "is_trending": true,
       "red_flags": []
     },
     {
-      "ticker": "BIAF",
-      "name": "bioAffinity Technologies, Inc.",
-      "price3DaysAgo": 6.59,
+      "ticker": "REBN",
+      "name": "Reborn Coffee, Inc.",
+      "price3DaysAgo": 1.11,
       "priceToday": NaN,
       "predictedMove": "+nan%",
-      "confidence": 94.5,
-      "reasoning": "elevated volume, fresh news catalyst, low float",
+      "confidence": 95,
+      "reasoning": "10.5x volume spike, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
         "Gap: nan%",
-        "Volume: 2.9x",
-        "Float: 0.5M",
-        "News: 19"
+        "Volume: 10.5x",
+        "Float: 5.7M",
+        "News: 4"
       ],
-      "news": "What's going on in today's session | 12 Health Care Stocks Moving In Wednesday's After-",
-      "catalyst": "What's going on in today's session",
+      "news": " |  | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "",
       "gap_percent": NaN,
-      "volume_ratio": 2.9,
-      "float": 0.5,
+      "volume_ratio": 10.5,
+      "float": 5.7,
       "short_percent": 2.4,
-      "news_count": 19,
+      "news_count": 4,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.1,
@@ -115,161 +77,35 @@
       },
       "tier": 2,
       "momentum_indicators": [
-        "news (9 articles)",
-        "ultra-low float (0.5M)"
+        "news (4 articles)",
+        "extreme volume (10.5x)",
+        "ultra-low float (5.7M)"
       ],
-      "social_score": 10,
-      "is_trending": false,
-      "red_flags": []
-    },
-    {
-      "ticker": "ATER",
-      "name": "Aterian, Inc.",
-      "price3DaysAgo": 0.45,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 94.5,
-      "reasoning": "3.5x volume spike, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 3.5x",
-        "Float: 13.8M",
-        "News: 6"
-      ],
-      "news": "Tuesday's session: gap up and gap down stocks |  | \ud83d\udd25 Trending based on elevated_activity",
-      "catalyst": "Tuesday's session: gap up and gap down stocks",
-      "gap_percent": NaN,
-      "volume_ratio": 3.5,
-      "float": 13.8,
-      "short_percent": 1.6,
-      "news_count": 6,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (5 articles)",
-        "extreme volume (3.5x)",
-        "accelerating volume (3 days)"
-      ],
-      "social_score": 40,
+      "social_score": 85,
       "is_trending": true,
       "red_flags": []
     },
     {
-      "ticker": "ADBT",
-      "name": "Advasa Holdings, Inc.",
-      "price3DaysAgo": 3.68,
+      "ticker": "LHSW",
+      "name": "Lianhe Sowell International Group Ltd",
+      "price3DaysAgo": 4.5,
       "priceToday": NaN,
       "predictedMove": "+nan%",
-      "confidence": 94.0,
-      "reasoning": "12.0x volume spike, fresh news catalyst, trending on social media",
+      "confidence": 95,
+      "reasoning": "13.0x volume spike, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
         "Gap: nan%",
-        "Volume: 12.0x",
-        "Float: 50.6M",
-        "News: 6"
+        "Volume: 13.0x",
+        "Float: 0.2M",
+        "News: 5"
       ],
-      "news": "12 Information Technology Stocks Moving In Wednesd | 12 Information Technology Stocks Moving In Wednesd | \ud83d\udd25 Trending based on moderate_activity",
-      "catalyst": "12 Information Technology Stocks Moving In Wednesday's After-Market Session",
+      "news": "Wondering what's happening in today's after-hours  | Top movers analysis one hour before the close of t | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Wondering what's happening in today's after-hours session?",
       "gap_percent": NaN,
-      "volume_ratio": 12.0,
-      "float": 50.6,
-      "short_percent": 0,
-      "news_count": 6,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (1 articles)",
-        "extreme volume (12.0x)"
-      ],
-      "social_score": 40,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "VIVK",
-      "name": "Vivakor, Inc.",
-      "price3DaysAgo": 0.78,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 89.5,
-      "reasoning": "\u26a0\ufe0f EXTREME 53.8x volume (SUSPICIOUS), fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 53.8x",
-        "Float: 8.1M",
-        "Short: 11%",
-        "News: 17"
-      ],
-      "news": "These stocks are making the most noise in today's  | Which stocks are gapping on Wednesday? | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "These stocks are making the most noise in today's session.",
-      "gap_percent": NaN,
-      "volume_ratio": 53.8,
-      "float": 8.1,
-      "short_percent": 11.4,
-      "news_count": 17,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (10 articles)",
-        "extreme volume (53.8x)",
-        "accelerating volume (3 days)",
-        "squeeze setup (float 8.1M + 11% short)",
-        "ultra-low float (8.1M)"
-      ],
-      "social_score": 65,
-      "is_trending": true,
-      "red_flags": [
-        "\u26a0\ufe0f EXTREME VOLUME - likely already moved or pump"
-      ]
-    },
-    {
-      "ticker": "CDT",
-      "name": "CDT Equity Inc.",
-      "price3DaysAgo": 1.48,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 84.5,
-      "reasoning": "fresh news catalyst, low float",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 1.2x",
-        "Float: 0.8M",
-        "News: 12"
-      ],
-      "news": "What's going on in today's session | Here are the top movers in Wednesday's session.",
-      "catalyst": "What's going on in today's session",
-      "gap_percent": NaN,
-      "volume_ratio": 1.2,
-      "float": 0.8,
-      "short_percent": 1.8,
-      "news_count": 12,
+      "volume_ratio": 13.0,
+      "float": 0.2,
+      "short_percent": 2.0,
+      "news_count": 5,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.1,
@@ -283,113 +119,117 @@
       "tier": 2,
       "momentum_indicators": [
         "news (2 articles)",
-        "ultra-low float (0.8M)"
+        "extreme volume (13.0x)",
+        "accelerating volume (3 days)",
+        "ultra-low float (0.2M)",
+        "micro-cap (18M)"
       ],
-      "social_score": 0,
-      "is_trending": false,
-      "red_flags": []
-    },
-    {
-      "ticker": "ARTW",
-      "name": "Art's-Way Manufacturing Co., Inc.",
-      "price3DaysAgo": 2.89,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 76.0,
-      "reasoning": "fresh news catalyst, low float",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 1.5x",
-        "Float: 2.0M",
-        "News: 3"
-      ],
-      "news": " | ",
-      "catalyst": "",
-      "gap_percent": NaN,
-      "volume_ratio": 1.5,
-      "float": 2.0,
-      "short_percent": 4.8,
-      "news_count": 3,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (3 articles)",
-        "ultra-low float (2.0M)",
-        "micro-cap (16M)"
-      ],
-      "social_score": 0,
-      "is_trending": false,
-      "red_flags": []
-    },
-    {
-      "ticker": "CRDU",
-      "name": "Tradr 2X Long CRDO Daily ETF",
-      "price3DaysAgo": 11.44,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 75.0,
-      "reasoning": "10.4x volume spike, trending on social media",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 10.4x",
-        "Float: 1000.0M"
-      ],
-      "news": "Gap: nan%, Vol: 10.4x | \ud83d\udd25 Trending based on moderate_activity",
-      "catalyst": "Technical setup",
-      "gap_percent": NaN,
-      "volume_ratio": 10.4,
-      "float": 1000.0,
-      "short_percent": 0,
-      "news_count": 0,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "extreme volume (10.4x)",
-        "accelerating volume (3 days)"
-      ],
-      "social_score": 40,
+      "social_score": 85,
       "is_trending": true,
       "red_flags": []
     },
     {
-      "ticker": "ONDS",
-      "name": "Ondas Inc.",
-      "price3DaysAgo": 7.04,
+      "ticker": "RETO",
+      "name": "ReTo Eco-Solutions, Inc.",
+      "price3DaysAgo": 1.06,
       "priceToday": NaN,
       "predictedMove": "+nan%",
-      "confidence": 73.0,
-      "reasoning": "fresh news catalyst, high short interest (41%)",
+      "confidence": 95,
+      "reasoning": "12.8x volume spike, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
         "Gap: nan%",
-        "Volume: 1.3x",
-        "Float: 533.4M",
-        "Short: 41%",
+        "Volume: 12.8x",
+        "Float: 3.3M",
+        "News: 1"
+      ],
+      "news": "Top movers analysis one hour before the close of t | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Top movers analysis one hour before the close of the markets on 2026-09-08: top gainers and losers i",
+      "gap_percent": NaN,
+      "volume_ratio": 12.8,
+      "float": 3.3,
+      "short_percent": 0.9,
+      "news_count": 1,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "extreme volume (12.8x)",
+        "ultra-low float (3.3M)"
+      ],
+      "social_score": 85,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "TWG",
+      "name": "Top Wealth Group Holding Limited",
+      "price3DaysAgo": 0.44,
+      "priceToday": NaN,
+      "predictedMove": "+nan%",
+      "confidence": 95,
+      "reasoning": "17.3x volume spike, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: nan%",
+        "Volume: 17.3x",
+        "Float: 16.1M",
+        "News: 8"
+      ],
+      "news": "Wondering what's happening in today's after-hours  | Curious about the most active stocks on Tuesday? | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Wondering what's happening in today's after-hours session?",
+      "gap_percent": NaN,
+      "volume_ratio": 17.3,
+      "float": 16.1,
+      "short_percent": 0.1,
+      "news_count": 8,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (5 articles)",
+        "extreme volume (17.3x)",
+        "micro-cap (34M)"
+      ],
+      "social_score": 85,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "ATAI",
+      "name": "AtaiBeckley Inc.",
+      "price3DaysAgo": 7.39,
+      "priceToday": NaN,
+      "predictedMove": "+nan%",
+      "confidence": 95,
+      "reasoning": "10.8x volume spike, fresh news catalyst, trending on social media",
+      "keyFactors": [
+        "Gap: nan%",
+        "Volume: 10.8x",
+        "Float: 308.4M",
+        "Short: 5%",
         "News: 11"
       ],
-      "news": "Undercovered Dozen: JPMorgan, Sezzle, Kayne Anders | ",
-      "catalyst": "Undercovered Dozen: JPMorgan, Sezzle, Kayne Anderson And More",
+      "news": "Lilly Builds Neuroscience into a New Long-Term Gro |  | \ud83d\udd25 Trending based on moderate_activity",
+      "catalyst": "Lilly Builds Neuroscience into a New Long-Term Growth Driver",
       "gap_percent": NaN,
-      "volume_ratio": 1.3,
-      "float": 533.4,
-      "short_percent": 40.6,
+      "volume_ratio": 10.8,
+      "float": 308.4,
+      "short_percent": 5.4,
       "news_count": 11,
       "isPrediction": true,
       "learningWeights": {
@@ -404,16 +244,179 @@
       "tier": 2,
       "momentum_indicators": [
         "news (10 articles)",
+        "extreme volume (10.8x)"
+      ],
+      "social_score": 40,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "FCUV",
+      "name": "Focus Universal Inc.",
+      "price3DaysAgo": 17.0,
+      "priceToday": NaN,
+      "predictedMove": "+nan%",
+      "confidence": 94.5,
+      "reasoning": "elevated volume, fresh news catalyst, low float",
+      "keyFactors": [
+        "Gap: nan%",
+        "Volume: 2.1x",
+        "Float: 0.5M",
+        "News: 12"
+      ],
+      "news": "Wondering what's happening in today's after-hours  | Top movers analysis one hour before the close of t",
+      "catalyst": "Wondering what's happening in today's after-hours session?",
+      "gap_percent": NaN,
+      "volume_ratio": 2.1,
+      "float": 0.5,
+      "short_percent": 4.6,
+      "news_count": 12,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (2 articles)",
         "accelerating volume (3 days)",
-        "high short interest (41%)"
+        "ultra-low float (0.5M)"
+      ],
+      "social_score": 10,
+      "is_trending": false,
+      "red_flags": []
+    },
+    {
+      "ticker": "LEXX",
+      "name": "Lexaria Bioscience Corp.",
+      "price3DaysAgo": 14.15,
+      "priceToday": NaN,
+      "predictedMove": "+nan%",
+      "confidence": 90.0,
+      "reasoning": "elevated volume, fresh news catalyst, low float",
+      "keyFactors": [
+        "Gap: nan%",
+        "Volume: 2.4x",
+        "Float: 1.6M",
+        "News: 10"
+      ],
+      "news": "12 Health Care Stocks Moving In Tuesday's After-Ma | 12 Health Care Stocks Moving In Tuesday's Intraday",
+      "catalyst": "12 Health Care Stocks Moving In Tuesday's After-Market Session",
+      "gap_percent": NaN,
+      "volume_ratio": 2.4,
+      "float": 1.6,
+      "short_percent": 1.8,
+      "news_count": 10,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (3 articles)",
+        "ultra-low float (1.6M)",
+        "micro-cap (15M)"
+      ],
+      "social_score": 10,
+      "is_trending": false,
+      "red_flags": []
+    },
+    {
+      "ticker": "VMAR",
+      "name": "Vision Marine Technologies Inc.",
+      "price3DaysAgo": 8.69,
+      "priceToday": NaN,
+      "predictedMove": "+nan%",
+      "confidence": 81.0,
+      "reasoning": "fresh news catalyst, low float",
+      "keyFactors": [
+        "Gap: nan%",
+        "Volume: 2.0x",
+        "Float: 0.2M",
+        "Short: 6%",
+        "News: 5"
+      ],
+      "news": " | ",
+      "catalyst": "",
+      "gap_percent": NaN,
+      "volume_ratio": 2.0,
+      "float": 0.2,
+      "short_percent": 5.5,
+      "news_count": 5,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (5 articles)",
+        "ultra-low float (0.2M)"
       ],
       "social_score": 0,
       "is_trending": false,
       "red_flags": []
+    },
+    {
+      "ticker": "OM",
+      "name": "Outset Medical, Inc.",
+      "price3DaysAgo": 3.59,
+      "priceToday": NaN,
+      "predictedMove": "+nan%",
+      "confidence": 79.5,
+      "reasoning": "elevated volume, fresh news catalyst, low float",
+      "keyFactors": [
+        "Gap: nan%",
+        "Volume: 2.7x",
+        "Float: 14.8M",
+        "Short: 7%",
+        "News: 10"
+      ],
+      "news": " | ",
+      "catalyst": "",
+      "gap_percent": NaN,
+      "volume_ratio": 2.7,
+      "float": 14.8,
+      "short_percent": 6.7,
+      "news_count": 10,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (10 articles)",
+        "micro-cap (65M)"
+      ],
+      "social_score": 10,
+      "is_trending": false,
+      "red_flags": []
     }
   ],
-  "generatedTime": "2026-09-03 01:36 AM",
-  "targetDate": "2026-09-03",
+  "generatedTime": "2026-09-09 01:36 AM",
+  "targetDate": "2026-09-09",
   "tradingStyle": "DAY_TRADING",
   "learningSystem": {
     "enabled": true,
